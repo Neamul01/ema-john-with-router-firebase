@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-- firebase project name 'ema-john'
+- ## firebase project name 'ema-john'
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
