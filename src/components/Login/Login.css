@@ -1,0 +1,92 @@
+.form-container {
+    max-width: 31rem;
+    margin: 2rem auto;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    box-shadow: -0.8rem 0.8rem 0.3rem rgba(255, 224, 179, 1);
+}
+
+.form-title {
+    color: #2A414F;
+    font-weight: 400;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    margin-left: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-group input,
+.form-submit,
+.google-login {
+    width: 26rem;
+    height: 3.5rem;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.form-submit {
+    margin-top: 1.5rem;
+    background: rgba(255, 153, 0, 0.3);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background: rgba(255, 153, 0, 0.5);
+}
+
+.form-link {
+    display: flex;
+    justify-content: center;
+}
+
+.form-link a {
+    color: rgba(255, 153, 0, 1);
+    text-decoration: none;
+    margin-left: 0.3rem;
+}
+
+.form-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-divider div {
+    width: 37%;
+    height: 1px;
+    background-color: rgba(149, 160, 167, 1);
+}
+
+.form-divider p {
+    margin: 1rem;
+    color: #95A0A7;
+}
+
+.google-login {
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 2.8rem;
+}
+
+.google-login:hover {
+    background: #e0e0e0;
+}
