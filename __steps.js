@@ -7,4 +7,6 @@
  * 6. form field handler and form submit handler
  * 7. npm i --save react-firebase-hooks
  * 8. useCreateUserWithEmailAndPassword from react firebase hooks
+ * 9. if user is created redirect to the required page
+ * 10. useSignInWithEmailAndPassword for sign in
  */
