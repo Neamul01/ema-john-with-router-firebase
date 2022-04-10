@@ -8,7 +8,6 @@ const Shipment = () => {
     const [address, setAddress] = useState('');
     const [phone, setPhone] = useState('');
     const [error, setError] = useState('');
-    // const navigate = useNavigate()
 
 
     const handleAddressBlur = event => {
