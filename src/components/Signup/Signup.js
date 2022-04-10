@@ -19,11 +19,21 @@ const Signup = () => {
     const handleConfirmPasswordBlur = event => {
         setConfirmPassword(event.target.value)
     }
+
+    const handleCreateUser = event => {
+        event.preventDefault()
+        if (password !== confirmPassword) {
+            setError('Your Password did not match')
+            return;
+        }
+    }
+
+
     return (
         <div className='form-container'>
             <div>
                 <h2 className='form-title'>Sign Up</h2>
-                <form>
+                <form onSubmit={handleCreateUser}>
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
                         <input onBlur={handleEmailBlur} type="email" name="email" id="" required />
@@ -36,6 +46,7 @@ const Signup = () => {
                         <label htmlFor="confirm-password">Confirm Password</label>
                         <input onBlur={handleConfirmPasswordBlur} type="password" name="confirm-password" id="" required />
                     </div>
+                    <p style={{ color: 'red' }}>{error}</p>
                     <input className='form-submit' type="submit" value="Sign Up" />
                 </form>
                 <p className='form-link'>
